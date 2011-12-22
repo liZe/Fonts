@@ -14,20 +14,19 @@ sfntRevision: 0x0000199a
 LayerCount: 2
 Layer: 0 0 "Arri+AOgA-re"  1
 Layer: 1 0 "Avant"  0
-NeedsXUIDChange: 1
 XUID: [1021 652 1294743660 12143374]
 FSType: 8
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1324519839
-PfmFamily: 17
+ModificationTime: 1324553335
+PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
 LineGap: 180
 VLineGap: 0
-Panose: 2 0 6 3 0 0 0 0 0 0
+Panose: 2 11 6 9 0 0 0 0 0 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -54,7 +53,8 @@ OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000007.00000000.00000000.00000000
-Lookup: 4 0 0 "Latin ligatures"  {"Latin ligatures-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Latin ligatures"  {"Latin ligatures 1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 257 0 0 "Ligatures position"  {"Latin ligatures positions"  } [' RQD' ('DFLT' <'dflt' > 'armn' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "FontForge : Monovember : 10-11-2011" 
@@ -64,7 +64,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 49 49 13
+WinInfo: 0 49 13
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
@@ -4498,10 +4498,10 @@ EndChar
 
 StartChar: ls
 Encoding: 1114113 -1 226
-Width: 1000
-Flags: HW
-HStem: -10 60<640.797 860.378> -10 40<303.891 436.612> 220 60<677.343 866.703> 440 60<661.823 876.05> 680 20G<50 260>
-VStem: 200 60<79.5163 640>
+Width: 500
+Flags: W
+HStem: -10 60<640.88 860.378> -10 40<303.891 436.603> 220 60<677.345 866.703> 440 60<661.823 876.05> 680 20G<50 260>
+VStem: 200 60<79.5214 640>
 LayerCount: 2
 Fore
 SplineSet
@@ -4528,15 +4528,15 @@ SplineSet
  260 45 312 30 370 30 c 3
  454 30 490 100 510 180 c 1x7c
 EndSplineSet
-Validated: 1
-LCarets2: 1 0 
-Ligature2: "Latin ligatures-1" l s
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+LCarets2: 2 0 0 
+Ligature2: "Latin ligatures 1" l s
 EndChar
 
 StartChar: uniFB00
 Encoding: 64256 64256 227
-Width: 1000
-Flags: HW
+Width: 500
+Flags: W
 HStem: 0 21G<150 210 510 570> 380 60<50 150 210 510 570 800> 640 60<294.629 512.724 652.343 877.172>
 VStem: 150 60<0 380 440 549.812> 510 60<0 380 440 551.199>
 LayerCount: 2
@@ -4569,15 +4569,15 @@ SplineSet
  510 440 l 1
  510 513 517 570 540 610 c 1
 EndSplineSet
-Validated: 1
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "Latin ligatures 1" f f
 LCarets2: 1 0 
-Ligature2: "Latin ligatures-1" f f
 EndChar
 
 StartChar: uniFB01
 Encoding: 64257 64257 228
-Width: 1000
-Flags: HW
+Width: 500
+Flags: W
 HStem: -10.5146 41.4629<780.898 948.842> 0 21G<150 210> 380 60<50 150 210 680> 580 60<680 740> 640 60<294.629 524.224>
 VStem: 150 60<0 380 440 549.812> 680 60<78.2471 380 580 640>
 LayerCount: 2
@@ -4610,9 +4610,9 @@ SplineSet
  50 440 l 25
  150 440 l 1
 EndSplineSet
-Validated: 1
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "Latin ligatures 1" f i
 LCarets2: 1 0 
-Ligature2: "Latin ligatures-1" f i
 EndChar
 
 StartChar: Cdotaccent
