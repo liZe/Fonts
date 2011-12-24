@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1324744289
+ModificationTime: 1324745260
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -65,14 +65,14 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 49 13
+WinInfo: 735 49 13
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
 BlueValues 31 [-190 -190 0 0 500 500 700 700]
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 513802 1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114114 376
+BeginChars: 1114114 381
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -6954,6 +6954,151 @@ SplineSet
  50 0 l 5
  250 600 l 5
  450 0 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: epsilon
+Encoding: 949 949 376
+Width: 500
+Flags: HW
+HStem: 0 60<225.527 450> 230 60<187.429 210> 440 60<224.681 450>
+VStem: 50 60<91.3127 195.624> 110 60<306.358 403.214>
+LayerCount: 2
+Fore
+SplineSet
+450 500 m 3xe8
+ 450 440 l 1
+ 202 436 170 410 170 360 c 3
+ 170 336 180 312 210 290 c 1
+ 390 290 l 1
+ 390 230 l 1
+ 210 230 l 1
+ 136 206 110 200 110 130 c 3xf0
+ 110 71 184 60 450 60 c 1
+ 450 0 l 2
+ 130 0 50 0 50 130 c 3
+ 50 209 82 237 160 260 c 1
+ 121 275 110 309 110 350 c 3xe8
+ 110 463 136 500 450 500 c 3xe8
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: afii10093
+Encoding: 1099 1099 377
+Width: 500
+Flags: HW
+HStem: 0 60<110 273.185> 270 60<110 242.47> 480 20G<50 110 390 450>
+VStem: 50 60<60 270 330 500> 290 60<78.1273 222.494> 390 60<0 500>
+LayerCount: 2
+Fore
+SplineSet
+390 0 m 9
+ 390 500 l 1
+ 450 500 l 1
+ 450 0 l 17
+ 390 0 l 9
+190 270 m 1
+ 110 270 l 1
+ 110 60 l 1
+ 262 60 290 60 290 140 c 3
+ 290 209 261 257 190 270 c 1
+110 500 m 1
+ 110 330 l 1
+ 190 330 l 3
+ 303 330 350 242 350 140 c 3
+ 350 0 319 0 110 0 c 2
+ 50 0 l 1
+ 50 500 l 1
+ 110 500 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: afii10092
+Encoding: 1098 1098 378
+Width: 500
+Flags: W
+HStem: 0 60<210 373.185> 270 60<210 342.47> 440 60<50 150>
+VStem: 150 60<60 270 330 440> 390 60<78.1273 222.494>
+LayerCount: 2
+Fore
+SplineSet
+290 270 m 5
+ 210 270 l 5
+ 210 60 l 5
+ 362 60 390 60 390 140 c 7
+ 390 209 361 257 290 270 c 5
+210 500 m 5
+ 210 330 l 5
+ 290 330 l 7
+ 403 330 450 242 450 140 c 7
+ 450 0 419 0 210 0 c 6
+ 150 0 l 5
+ 150 440 l 13
+ 50 440 l 25
+ 50 500 l 25
+ 210 500 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: afii10044
+Encoding: 1066 1066 379
+Width: 500
+Flags: HW
+HStem: 0 60<210 377.674> 320 60<210 324.734> 540 60<50 150>
+VStem: 150 60<60 320 380 540> 390 60<74.504 253.023>
+LayerCount: 2
+Fore
+SplineSet
+290 320 m 1
+ 210 320 l 1
+ 210 60 l 1
+ 370 62 390 77 390 140 c 3
+ 390 269 345 290 290 320 c 1
+210 600 m 1
+ 210 380 l 1
+ 290 380 l 3
+ 403 380 450 278 450 140 c 3
+ 450 0 431 0 210 0 c 2
+ 150 0 l 1
+ 150 540 l 9
+ 50 540 l 25
+ 50 600 l 25
+ 210 600 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: afii10045
+Encoding: 1067 1067 380
+Width: 500
+Flags: HW
+HStem: 0 60<110 277.674> 320 60<110 224.734>
+VStem: 50 60<60 320 380 600> 290 60<74.504 253.023> 390 60<0 600>
+LayerCount: 2
+Fore
+SplineSet
+390 0 m 9
+ 390 600 l 1
+ 450 600 l 1
+ 450 0 l 17
+ 390 0 l 9
+190 320 m 1
+ 110 320 l 1
+ 110 60 l 1
+ 277 62 290 74 290 140 c 3
+ 290 269 245 290 190 320 c 1
+110 600 m 1
+ 110 380 l 1
+ 190 380 l 3
+ 303 380 350 278 350 140 c 3
+ 350 0 331 0 110 0 c 2
+ 50 0 l 1
+ 50 600 l 1
+ 110 600 l 1
 EndSplineSet
 Validated: 1
 EndChar
