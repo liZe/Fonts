@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1324746518
+ModificationTime: 1324747032
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -65,14 +65,14 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 98 49 13
+WinInfo: 784 49 13
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
 BlueValues 31 [-190 -190 0 0 500 500 700 700]
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 513802 1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114114 399
+BeginChars: 1114114 401
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -7401,6 +7401,72 @@ SplineSet
  348 280 390 300 390 370 c 3
  390 414 318 440 270 440 c 1
  270 280 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: afii10024
+Encoding: 1046 1046 399
+Width: 500
+Flags: HMW
+HStem: 0 21G<50 140.084 220 280 359.916 450>
+VStem: 220 60<0 178.5 421.455 600>
+DStem2: 120 600 50 600 0.470588 -0.882353<0 208.597 447.206 447.206 523.773 651.765> 50 0 130 0 0.470588 0.882353<37.6471 237.5 480.107 680>
+LayerCount: 2
+Fore
+SplineSet
+290 300 m 1
+ 450 0 l 1
+ 380 0 l 1
+ 280 180 l 1
+ 280 0 l 1
+ 220 0 l 1
+ 220 180 l 5
+ 130 0 l 1
+ 50 0 l 1
+ 210 300 l 1
+ 50 600 l 1
+ 120 600 l 1
+ 220 410 l 1
+ 220 600 l 1
+ 280 600 l 1
+ 280 410 l 1
+ 370 600 l 1
+ 450 600 l 1
+ 290 300 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: afii10072
+Encoding: 1078 1078 400
+Width: 500
+Flags: HMW
+HStem: 0 21G<50 140.682 220 280 368.131 450> 480 20G<50 130.924 220 280 359.919 450>
+VStem: 220 60<0 168.5 321.454 500>
+DStem2: 120 500 50 500 0.488603 -0.872506<0 208.596> 50 0 130 0 0.488603 0.872506<39.0883 230.08> 280 321.454 310 250 0.488603 0.872506<0 199.757> 310 250 280 168.5 0.488603 -0.872506<56.4511 252.329>
+LayerCount: 2
+Fore
+SplineSet
+310 250 m 1
+ 450 0 l 1
+ 380 0 l 1
+ 280 170 l 1
+ 280 0 l 1
+ 220 0 l 1
+ 220 170 l 5
+ 130 0 l 1
+ 50 0 l 1
+ 190 250 l 1
+ 50 500 l 1
+ 120 500 l 1
+ 220 310 l 1
+ 220 500 l 1
+ 280 500 l 1
+ 280 310 l 1
+ 370 500 l 1
+ 450 500 l 1
+ 310 250 l 1
 EndSplineSet
 Validated: 1
 EndChar
