@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1324600983
+ModificationTime: 1324744289
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -65,7 +65,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 784 49 13
+WinInfo: 0 49 13
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
@@ -620,9 +620,9 @@ EndChar
 StartChar: e
 Encoding: 101 101 23
 Width: 500
-Flags: W
-HStem: 0 60<155.424 377.6> 220 60<175.088 363.114> 440 60<169.396 331.856>
-VStem: 50 60<99.9906 270 301.82 390.247> 390 60<307.883 391.945>
+Flags: HW
+HStem: 0 60<155.424 377.6> 220 60<110 362.932> 440 60<169.396 331.856>
+VStem: 50 60<99.9906 220 280 390.247> 390 60<307.883 391.945>
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -632,7 +632,7 @@ SplineSet
  100 484 212 500 260 500 c 3
  347 500 426 418 450 370 c 1
  450 240 361 220 270 220 c 27
- 205 220 110 270 110 270 c 1
+ 110 220 l 1
  110 130 l 1
  132 68 220 60 270 60 c 3
  307 60 368 62 430 100 c 1
@@ -640,8 +640,8 @@ SplineSet
  368 0 313 0 270 0 c 3
  201 0 64 30 50 120 c 1
 110 370 m 1
- 110 310 l 1
- 164 286 217 280 270 280 c 3
+ 110 280 l 1
+ 270 280 l 3
  348 280 390 300 390 370 c 1
  364 406 308 440 260 440 c 3
  230 440 164 436 110 370 c 1
@@ -2807,6 +2807,7 @@ StartChar: edieresis
 Encoding: 235 235 123
 Width: 500
 VWidth: 0
+Flags: H
 HStem: 0 60<155.424 377.6> 220 60<175.088 363.114> 440 60<169.396 331.856> 560 60<150 210 310 370>
 VStem: 50 60<99.9906 270 301.82 390.247> 150 60<560 620> 310 60<560 620> 390 60<307.883 391.945>
 LayerCount: 2
@@ -3538,6 +3539,7 @@ StartChar: edotaccent
 Encoding: 279 279 163
 Width: 500
 VWidth: 0
+Flags: H
 HStem: 0 60<155.424 377.6> 220 60<175.088 363.114> 440 60<169.396 331.856> 560 60<230 290>
 VStem: 50 60<99.9906 270 301.82 390.247> 230 60<560 620> 390 60<307.883 391.945>
 LayerCount: 2
@@ -3752,6 +3754,7 @@ StartChar: emacron
 Encoding: 275 275 176
 Width: 500
 VWidth: 0
+Flags: H
 HStem: 0 60<155.424 377.6> 220 60<175.088 363.114> 440 60<169.396 331.856> 560 70<110 410>
 VStem: 50 60<99.9906 270 301.82 390.247> 110 300<560 630> 390 60<307.883 391.945>
 LayerCount: 2
@@ -5248,7 +5251,7 @@ SplineSet
  380 50 l 25
  380 580 l 25
  450 600 l 25
- 450 362 450 -10 450 -10 c 3
+ 450 -10 l 3
  108 -10 50 0 50 130 c 2
  50 580 l 1
  110 600 l 1
@@ -5626,6 +5629,7 @@ StartChar: afii10070
 Encoding: 1077 1077 303
 Width: 500
 VWidth: 0
+Flags: H
 HStem: 0 60<155.424 377.6> 220 60<175.088 363.114> 440 60<169.396 331.856>
 VStem: 50 60<99.9906 270 301.82 390.247> 390 60<307.883 391.945>
 CounterMasks: 1 e0
@@ -5695,6 +5699,7 @@ StartChar: uni0450
 Encoding: 1104 1104 309
 Width: 500
 VWidth: 0
+Flags: H
 HStem: 0 60<155.424 377.6> 220 60<175.088 363.114> 440 60<169.396 331.856> 560 150
 VStem: 50 60<99.9906 270 301.82 390.247> 130 220 390 60<307.883 391.945>
 LayerCount: 2
@@ -6319,7 +6324,7 @@ SplineSet
 120 440 m 25
  120 1 l 25
  50 1 l 25
- 50 196 50 500 50 500 c 3
+ 50 500 l 3
  392 500 450 490 450 360 c 2
  450 0 l 1
  390 0 l 1
@@ -6437,7 +6442,7 @@ SplineSet
  380 50 l 25
  380 480 l 25
  450 500 l 25
- 450 301 450 -10 450 -10 c 3
+ 450 -10 l 3
  108 -10 50 0 50 130 c 2
  50 480 l 1
  110 500 l 1
@@ -6519,7 +6524,7 @@ SplineSet
  120 440 l 25
  120 1 l 25
  50 1 l 25
- 50 196 50 500 50 500 c 3
+ 50 500 l 3
  392 500 450 490 450 360 c 2
  450 0 l 1
  390 0 l 1
@@ -6895,6 +6900,7 @@ LayerCount: 2
 Fore
 Refer: 108 180 S 1 0 0 1 -15 0 2
 Refer: 368 1082 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni045D
@@ -6908,6 +6914,7 @@ LayerCount: 2
 Fore
 Refer: 94 96 S 1 0 0 1 -20 0 2
 Refer: 360 1080 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Delta
@@ -6928,6 +6935,7 @@ SplineSet
  150 60 l 1
  358 60 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Lambda
@@ -6947,6 +6955,7 @@ SplineSet
  250 600 l 5
  450 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
