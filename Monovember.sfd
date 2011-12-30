@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1325265043
+ModificationTime: 1325265969
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -65,14 +65,14 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 49 49 8
+WinInfo: 64190 49 8
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
 BlueValues 31 [-190 -190 0 0 500 500 700 700]
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 513802 1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114114 524
+BeginChars: 1114114 527
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -4531,7 +4531,7 @@ SplineSet
  454 30 490 100 510 180 c 1x7c
 EndSplineSet
 Validated: 1
-Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 2 0 0 
 Ligature2: "Latin ligatures 1" l s
 EndChar
@@ -4539,41 +4539,38 @@ EndChar
 StartChar: uniFB00
 Encoding: 64256 64256 227
 Width: 500
-Flags: W
-HStem: 0 21G<150 210 510 570> 380 60<50 150 210 510 570 800> 640 60<294.629 512.724 652.343 877.172>
-VStem: 150 60<0 380 440 549.812> 510 60<0 380 440 551.199>
+Flags: HW
+HStem: 0 21G<50 110 450 510> 380 60<110 450 510 800> 640 60<224.099 452.74 595.545 877.172>
+VStem: 50 60<0 380 440 531.286> 450 60<0 380 440 574.282>
 LayerCount: 2
 Fore
 SplineSet
-210 380 m 5
- 210 0 l 5
- 150 0 l 5
- 150 380 l 5
- 50 380 l 5
- 50 440 l 5
- 150 440 l 5
- 150 604 212 700 390 700 c 4
- 476 700 536 676 570 640 c 5
- 609 677 671 699 749 699 c 0
+50 440 m 1
+ 50 604 152 700 330 700 c 0
+ 416 700 476 676 510 640 c 1
+ 549 677 671 699 749 699 c 0
  787 699 914 689 950 640 c 1
  920 590 l 1
- 874 637 794 641 750 641 c 0
- 636 641 570 576 570 440 c 1
+ 874 637 794 640 750 640 c 4
+ 518 640 510 576 510 440 c 1
  800 440 l 1
  800 380 l 1
- 570 380 l 1
- 570 0 l 1
+ 510 380 l 1
  510 0 l 1
- 510 380 l 5
- 210 380 l 5
-540 610 m 5
- 496 639 465 640 390 640 c 4
- 276 640 210 576 210 440 c 5
- 510 440 l 5
- 510 513 517 570 540 610 c 5
+ 450 0 l 1
+ 450 380 l 1
+ 110 380 l 1
+ 110 0 l 1
+ 50 0 l 1
+ 50 440 l 1
+480 610 m 1
+ 436 639 405 640 330 640 c 0
+ 216 640 110 576 110 440 c 1
+ 450 440 l 1
+ 450 513 457 570 480 610 c 1
 EndSplineSet
 Validated: 1
-Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "Latin ligatures 1" f f
 LCarets2: 1 0 
 EndChar
@@ -4582,8 +4579,8 @@ StartChar: uniFB01
 Encoding: 64257 64257 228
 Width: 500
 Flags: W
-HStem: -10.5146 41.4629<780.898 948.842> 0 21G<150 210> 380 60<50 150 210 680> 580 60<680 740> 640 60<294.629 524.224>
-VStem: 150 60<0 380 440 549.812> 680 60<78.2471 380 580 640>
+HStem: -11 42<779.278 948.842> 0 21G<50 110> 380 60<110 680> 580 60<680 740> 640 60<232.224 507.11>
+VStem: 50 60<0 380 440 528.625> 680 60<78.1876 380 580 640>
 LayerCount: 2
 Fore
 SplineSet
@@ -4592,12 +4589,12 @@ SplineSet
  740 580 l 1
  680 580 l 1
  680 640 l 1x36
-150 440 m 1
- 150 604 212 700 390 700 c 3
- 481 700 548 680 580 640 c 1x6e
+50 440 m 1
+ 50 604 162 700 340 700 c 3
+ 431 700 548 680 580 640 c 1x6e
  580 580 l 1x36
- 516 636 484 640 390 640 c 3
- 276 640 210 576 210 440 c 0
+ 516 636 434 640 340 640 c 3
+ 226 640 110 576 110 440 c 0
  740 440 l 1
  740 190 l 2
  740 41 806 31 831 31 c 3
@@ -4606,16 +4603,13 @@ SplineSet
  936 0 856 -11 830 -11 c 3xae
  764 -11 680 20 680 150 c 2
  680 380 l 1
- 210 380 l 1
- 210 0 l 1
- 150 0 l 1x66
- 150 380 l 9
- 50 380 l 25
- 50 440 l 25
- 150 440 l 1
+ 110 380 l 1
+ 110 0 l 1
+ 50 0 l 1x66
+ 50 440 l 1
 EndSplineSet
 Validated: 1
-Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "Latin ligatures 1" f i
 LCarets2: 1 0 
 EndChar
@@ -5808,11 +5802,28 @@ EndChar
 StartChar: uni04AE
 Encoding: 1198 1198 317
 Width: 500
-VWidth: 0
-Flags: H
+Flags: W
+HStem: 0 21G<220 280> 300 50<149.301 220 280 369.356>
+VStem: 50 60<384.172 580> 220 60<0 300> 390 60<365.138 580>
+CounterMasks: 1 38
 LayerCount: 2
 Fore
-Refer: 51 89 N 1 0 0 1 0 0 3
+SplineSet
+220 300 m 5
+ 133 303 50 329 50 450 c 2
+ 50 580 l 1
+ 110 600 l 1
+ 110 429 l 2
+ 110 352 235 350 270 350 c 0
+ 303 350 350 358 390 370 c 1
+ 390 580 l 1
+ 450 600 l 1
+ 450 370 l 1
+ 420 335 352 309 280 302 c 1
+ 280 0 l 1
+ 220 0 l 5
+ 220 300 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -9811,7 +9822,7 @@ EndChar
 StartChar: onehalf
 Encoding: 189 189 520
 Width: 500
-Flags: HMWO
+Flags: HMW
 HStem: 0 60<320 500> 190 60<240 437.114> 440 60<0 100 160 260> 640 60<0 100>
 VStem: 100 60<500 640> 240 260<0 154 190 202.136> 440 60<145.256 178.876>
 DStem2: 50 190 140 190 0.728848 0.684675<65.5963 452.769>
@@ -9899,6 +9910,117 @@ EndSplineSet
 Refer: 475 179 N 1 0 0 1 -120 0 2
 Refer: 521 8308 N 1 0 0 1 120 -440 2
 Validated: 1
+EndChar
+
+StartChar: uni04AF
+Encoding: 1199 1199 524
+Width: 500
+Flags: W
+HStem: -190 21G<220 280> 0 50<149.301 220 280 369.356> 480 20G<50 110 390 450>
+VStem: 50 60<84.1719 480> 220 60<-190 0> 390 60<65.1385 480>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+SplineSet
+220 0 m 1
+ 133 3 50 29 50 150 c 2
+ 50 480 l 1
+ 110 500 l 1
+ 110 129 l 2
+ 110 52 235 50 270 50 c 0
+ 303 50 350 58 390 70 c 1
+ 390 480 l 1
+ 450 500 l 1
+ 450 70 l 1
+ 420 35 352 9 280 2 c 1
+ 280 -190 l 1
+ 220 -190 l 1
+ 220 0 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB02
+Encoding: 64258 64258 525
+Width: 500
+Flags: HW
+HStem: -11 42<779.278 948.842> 0 21G<50 110> 380 60<110 340> 640 60<277.863 666.95>
+VStem: 50 60<0 380 440 533.112> 680 60<78.1876 623.839>
+LayerCount: 2
+Fore
+SplineSet
+740 190 m 2x7c
+ 740 41 806 31 831 31 c 0
+ 858 31 916 33 950 40 c 1
+ 950 10 l 1
+ 936 0 856 -11 830 -11 c 0xbc
+ 764 -11 680 20 680 150 c 2
+ 680 610 l 1
+ 627 631 567 640 500 640 c 0
+ 246 640 110 617 110 440 c 1
+ 340 440 l 1
+ 340 380 l 1
+ 110 380 l 1
+ 110 0 l 1
+ 50 0 l 1
+ 50 440 l 2
+ 50 668 206 700 500 700 c 0
+ 591 700 708 680 740 640 c 1
+ 740 190 l 2x7c
+EndSplineSet
+Validated: 1
+LCarets2: 1 0 
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "Latin ligatures 1" f l
+EndChar
+
+StartChar: uniFB03
+Encoding: 64259 64259 526
+Width: 500
+Flags: W
+HStem: -11 42<1279.28 1448.84> 0 21G<50 110 540 600> 380 60<110 540 600 1180> 580 60<1180 1240> 640 60<224.099 507.355 685.545 967.172>
+VStem: 50 60<0 380 440 531.286> 540 60<0 380 440 574.282> 1180 60<78.1876 380 580 640>
+LayerCount: 2
+Fore
+SplineSet
+1180 640 m 1x37
+ 1240 640 l 1
+ 1240 580 l 1
+ 1180 580 l 1
+ 1180 640 l 1x37
+600 380 m 1
+ 600 0 l 1
+ 540 0 l 1
+ 540 380 l 1
+ 110 380 l 1
+ 110 0 l 1
+ 50 0 l 1x67
+ 50 440 l 1
+ 50 604 152 700 330 700 c 0
+ 416 700 566 676 600 640 c 1
+ 639 677 761 699 839 699 c 0
+ 877 699 1004 689 1040 640 c 1
+ 1010 590 l 1
+ 964 637 884 640 840 640 c 0
+ 608 640 600 576 600 440 c 1
+ 1240 440 l 1
+ 1240 190 l 2
+ 1240 41 1306 31 1331 31 c 3
+ 1358 31 1416 33 1450 40 c 1
+ 1450 10 l 1
+ 1436 0 1356 -11 1330 -11 c 3xaf
+ 1264 -11 1180 20 1180 150 c 2
+ 1180 380 l 1
+ 600 380 l 1
+570 610 m 1
+ 526 639 405 640 330 640 c 0x2f
+ 216 640 110 576 110 440 c 1
+ 540 440 l 1
+ 540 513 547 570 570 610 c 1
+EndSplineSet
+Validated: 1
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=1000 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "Latin ligatures 1" f f i
 EndChar
 EndChars
 EndSplineFont
