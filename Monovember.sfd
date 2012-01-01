@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1325265969
+ModificationTime: 1325450909
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +54,7 @@ OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000007.00000000.00000000.00000000
-Lookup: 4 0 0 "Latin ligatures"  {"Latin ligatures 1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Latin ligatures"  {"Latin ligatures"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Ligatures position"  {"Latin ligatures positions"  } [' RQD' ('DFLT' <'dflt' > 'armn' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -65,14 +65,14 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 64190 49 8
+WinInfo: 8134 49 8
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
 BlueValues 31 [-190 -190 0 0 500 500 700 700]
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 513802 1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114114 527
+BeginChars: 1114114 551
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -681,8 +681,8 @@ HStem: -179.052 58.5371<83.221 309.427> 440 60<150 390> 600 60<330 390>
 VStem: 330 60<600 660> 390 60<-3.5174 440>
 LayerCount: 2
 Fore
-Refer: 2 46 S 1 0 0 1 110 560 2
-Refer: 24 567 N 1 0 0 1 0 0 2
+Refer: 2 46 N 1 0 0 1 110 560 2
+Refer: 24 567 S 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -2968,9 +2968,9 @@ EndChar
 StartChar: ordmasculine
 Encoding: 186 186 135
 Width: 500
-Flags: HW
-HStem: 430 60<196.511 291.666> 640 60<196.724 297.658>
-VStem: 120 60<504.198 623.185> 320 60<518.279 619.17>
+Flags: W
+HStem: 430 60<196.511 291.666> 640 60<196.724 297.569>
+VStem: 120 60<504.215 623.171> 320 60<518.279 619.17>
 LayerCount: 2
 Fore
 SplineSet
@@ -2993,9 +2993,9 @@ EndChar
 StartChar: degree
 Encoding: 176 176 136
 Width: 500
-Flags: HW
-HStem: 500 60<204.908 294.365> 640 60<205.278 294.67>
-VStem: 140 60<564.281 632.792> 300 60<567.055 635.675>
+Flags: W
+HStem: 430 60<196.511 291.666> 640 60<196.724 297.569>
+VStem: 120 60<504.215 623.171> 320 60<518.279 619.17>
 LayerCount: 2
 Fore
 Refer: 135 186 N 1 0 0 1 0 0 2
@@ -3366,14 +3366,12 @@ StartChar: uring
 Encoding: 367 367 151
 Width: 500
 VWidth: 0
-Flags: H
-HStem: -20 50<149.277 370.997> 480 20<50 110 390 450> 560 60<234.908 324.365> 700 60<235.278 324.67>
-VStem: 50 59.997<64.3048 480> 170 60<624.281 692.792> 330 60<627.055 695.675> 390 60<44.1875 480>
+HStem: -20 50<149.277 370.997> 480 20<50 110 390 450> 490 60<196.511 291.666> 700 60<196.724 297.569>
+VStem: 50 59.997<64.3048 480> 120 60<564.214 683.171> 320 60<578.279 679.17> 390 60<44.1875 480>
 LayerCount: 2
 Fore
-Refer: 136 176 N 1 0 0 1 30 60 2
+Refer: 136 176 S 1 0 0 1 0 60 2
 Refer: 18 117 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: zdotaccent
@@ -4531,9 +4529,9 @@ SplineSet
  454 30 490 100 510 180 c 1x7c
 EndSplineSet
 Validated: 1
-Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
 LCarets2: 2 0 0 
-Ligature2: "Latin ligatures 1" l s
+Ligature2: "Latin ligatures" l s
 EndChar
 
 StartChar: uniFB00
@@ -4570,8 +4568,8 @@ SplineSet
  450 513 457 570 480 610 c 1
 EndSplineSet
 Validated: 1
-Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-Ligature2: "Latin ligatures 1" f f
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
+Ligature2: "Latin ligatures" f f
 LCarets2: 1 0 
 EndChar
 
@@ -4609,8 +4607,8 @@ SplineSet
  50 440 l 1
 EndSplineSet
 Validated: 1
-Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-Ligature2: "Latin ligatures 1" f i
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
+Ligature2: "Latin ligatures" f i
 LCarets2: 1 0 
 EndChar
 
@@ -9970,8 +9968,8 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0 
-Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-Ligature2: "Latin ligatures 1" f l
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
+Ligature2: "Latin ligatures" f l
 EndChar
 
 StartChar: uniFB03
@@ -10019,8 +10017,468 @@ SplineSet
  540 513 547 570 570 610 c 1
 EndSplineSet
 Validated: 1
-Position2: "Latin ligatures positions" dx=0 dy=0 dh=1000 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-Ligature2: "Latin ligatures 1" f f i
+Position2: "Latin ligatures positions" dx=0 dy=0 dh=1000 dv=0
+Ligature2: "Latin ligatures" f f i
+EndChar
+
+StartChar: hungarumlaut
+Encoding: 733 733 527
+Width: 500
+Flags: W
+HStem: 550 150
+VStem: 50 220 230 220
+LayerCount: 2
+Fore
+Refer: 108 180 N 1 0 0 1 90 0 2
+Refer: 108 180 N 1 0 0 1 -90 0 2
+Validated: 1
+EndChar
+
+StartChar: Ohungarumlaut
+Encoding: 336 336 528
+Width: 500
+VWidth: 0
+HStem: -10 60<129.17 355.737> 540 60<140.645 356.933> 650 150
+VStem: 50 60<70.9273 513.303> 50 220 230 220 390 60<74.9599 526.166>
+LayerCount: 2
+Fore
+Refer: 527 733 S 1 0 0 1 0 100 2
+Refer: 39 79 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: ohungarumlaut
+Encoding: 337 337 529
+Width: 500
+VWidth: 0
+HStem: -10 60<129.1 355.676> 440 60<140.555 356.98> 550 150
+VStem: 50 60<70.8566 413.232> 50 220 230 220 390 60<75.0222 426.067>
+LayerCount: 2
+Fore
+Refer: 527 733 S 1 0 0 1 0 0 2
+Refer: 22 111 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Uhungarumlaut
+Encoding: 368 368 530
+Width: 500
+VWidth: 0
+HStem: -20 50<149.369 370.937> 650 150
+VStem: 50 60<64.1719 580> 50 220 230 220 390 60<44.1875 580>
+LayerCount: 2
+Fore
+Refer: 527 733 S 1 0 0 1 0 100 2
+Refer: 5 85 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uhungarumlaut
+Encoding: 369 369 531
+Width: 500
+VWidth: 0
+HStem: -20 50<149.277 370.997> 480 20<50 110 390 450> 550 150
+VStem: 50 59.997<64.3048 480> 50 220 230 220 390 60<44.1875 480>
+LayerCount: 2
+Fore
+Refer: 527 733 S 1 0 0 1 0 0 2
+Refer: 18 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: ogonek
+Encoding: 731 731 532
+Width: 500
+Flags: W
+HStem: -10 190
+VStem: 220 60<120 180>
+LayerCount: 2
+Fore
+SplineSet
+308 -10 m 1
+ 220 120 l 1
+ 220 180 l 1
+ 280 180 l 1
+ 280 120 l 1
+ 350 -10 l 1
+ 308 -10 l 1
+EndSplineSet
+Validated: 6291457
+EndChar
+
+StartChar: ogonek
+Encoding: 731 731 533
+Width: 500
+Flags: W
+HStem: -10 190<268 280>
+VStem: 220 60<120 180>
+LayerCount: 2
+Fore
+SplineSet
+268 -10 m 5
+ 220 120 l 1
+ 220 180 l 1
+ 280 180 l 1
+ 280 120 l 1
+ 310 -10 l 5
+ 268 -10 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: Aogonek
+Encoding: 260 260 534
+Width: 500
+VWidth: 0
+HStem: -190.667 190<438 450> 1 21<50 110 390 450> 240 60<110 390> 540 60<110 272.611>
+VStem: 50 60<1 240 300 540> 390 60<-60.667 -0.667007 0 240 300 466.731>
+LayerCount: 2
+Fore
+Refer: 533 731 S 1 0 0 1 170 -180.667 2
+Refer: 55 65 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: aogonek
+Encoding: 261 261 535
+Width: 500
+VWidth: 0
+HStem: -183.667 190<438 450> 0 60<112.081 286> 230 60<140.645 387.487> 440 60<142.29 329.989>
+VStem: 50 60<71.712 203.303> 390 60<-53.667 6.33299 80 216.166 270 373.501>
+LayerCount: 2
+Fore
+Refer: 533 731 N 1 0 0 1 170 -173.667 2
+Refer: 30 97 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: Eogonek
+Encoding: 280 280 536
+Width: 500
+VWidth: 0
+HStem: -193.667 190<298 310> 0 60<110 450> 330 60<110 300> 540 60<110 450>
+VStem: 50 60<60 330 390 540> 250 60<-63.667 -3.66701>
+LayerCount: 2
+Fore
+Refer: 533 731 S 1 0 0 1 30 -183.667 2
+Refer: 54 69 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: eogonek
+Encoding: 281 281 537
+Width: 500
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 533 731 N 1 0 0 1 20 -180.667 2
+Refer: 23 101 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Iogonek
+Encoding: 302 302 538
+Width: 500
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 533 731 N 1 0 0 1 0 -183.667 2
+Refer: 43 73 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: iogonek
+Encoding: 303 303 539
+Width: 500
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 533 731 N 1 0 0 1 140.104 -184.181 2
+Refer: 11 105 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Uogonek
+Encoding: 370 370 540
+Width: 500
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 533 731 N 1 0 0 1 -10 -193.667 2
+Refer: 5 85 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: uogonek
+Encoding: 371 371 541
+Width: 500
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 533 731 N 1 0 0 1 170 -193.667 2
+Refer: 18 117 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: napostrophe
+Encoding: 329 329 542
+Width: 500
+Flags: W
+HStem: 0 21<50 110 390 450> 440 60<131.11 339.3> 570 230<80 122>
+VStem: 50 60<0 427.906> 80 42<570 623.667> 390 60<0 399.545>
+LayerCount: 2
+Fore
+Refer: 47 39 S 1 0 0 1 -150 100 2
+Refer: 14 110 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: hbar
+Encoding: 295 295 543
+Width: 500
+Flags: W
+HStem: 0 21G<110 170 390 450> 440 60<209.795 367.322> 550 60<50 110 160.99 300> 680 20G<110 168.323>
+VStem: 110 60<0 418.844 611.667 680> 110 50.2929<456.91 550 610 680> 390 60<0 415.443>
+LayerCount: 2
+Fore
+SplineSet
+170 0 m 1xfa
+ 110 0 l 1xfa
+ 110 550 l 1
+ 50 550 l 1
+ 50 610 l 1
+ 110 610 l 1xf6
+ 110 680 l 1
+ 170 700 l 1xfa
+ 166.646 674.585 162.772 645.656 160.99 610 c 1
+ 300 610 l 1
+ 300 550 l 1
+ 160.293 550 l 1xf6
+ 161.45 513.082 165.846 496.123 170 455 c 1
+ 228 494 261.947 500 300 500 c 0
+ 356.685 500 403 482 450 405 c 1
+ 450 0 l 1
+ 390 0 l 1
+ 390 370 l 1
+ 379 413 365 440 300 440 c 0
+ 251 440 201.688 424.56 170 410 c 1
+ 170 0 l 1xfa
+EndSplineSet
+EndChar
+
+StartChar: Hbar
+Encoding: 294 294 544
+Width: 500
+Flags: W
+HStem: 0 21G<80 140 360 420> 280 60<140 360> 440 60<50 80 140 360 420 450>
+VStem: 80 60<0 280 340 440 500 580> 360 60<0 280 340 440 500 580>
+LayerCount: 2
+Fore
+SplineSet
+360 0 m 1
+ 360 280 l 1
+ 140 280 l 1
+ 140 0 l 1
+ 80 0 l 1
+ 80 440 l 1
+ 50 440 l 1
+ 50 500 l 1
+ 80 500 l 1
+ 80 580 l 1
+ 140 600 l 1
+ 140 500 l 1
+ 360 500 l 1
+ 360 580 l 1
+ 420 600 l 1
+ 420 500 l 1
+ 450 500 l 1
+ 450 440 l 1
+ 420 440 l 1
+ 420 0 l 1
+ 360 0 l 1
+140 440 m 1
+ 140 340 l 1
+ 360 340 l 1
+ 360 440 l 1
+ 140 440 l 1
+EndSplineSet
+EndChar
+
+StartChar: Lslash
+Encoding: 321 321 545
+Width: 500
+Flags: MW
+HStem: 0 60<170 450>
+VStem: 110 60<60 222 294 600>
+DStem2: 50 270 50 210 0.980581 0.196116<0 49.4213 122.376 294.174>
+LayerCount: 2
+Fore
+SplineSet
+170 234 m 1
+ 170 60 l 1
+ 450 60 l 1
+ 450 0 l 1
+ 110 0 l 1
+ 110 222 l 1
+ 50 210 l 1
+ 50 270 l 1
+ 110 282 l 1
+ 110 600 l 1
+ 170 600 l 1
+ 170 294 l 1
+ 350 330 l 1
+ 350 270 l 1
+ 170 234 l 1
+EndSplineSet
+EndChar
+
+StartChar: lslash
+Encoding: 322 322 546
+Width: 500
+Flags: MW
+HStem: -10 40<303.891 448.919> 680 20G<50 260>
+VStem: 200 60<79.5163 320 392 640>
+DStem2: 100 360 100 300 0.980581 0.196116<0 90.2134 163.169 294.174>
+LayerCount: 2
+Fore
+SplineSet
+50 700 m 1
+ 260 700 l 1
+ 260 392 l 1
+ 400 420 l 1
+ 400 360 l 1
+ 260 332 l 1
+ 260 220 l 2
+ 260 44.9883 312 30 370 30 c 0
+ 396 30 424 32 450 40 c 1
+ 450 10 l 1
+ 430 -6 403 -10 370 -10 c 0
+ 295 -10 200 19.9463 200 170 c 2
+ 200 320 l 1
+ 100 300 l 1
+ 100 360 l 1
+ 200 380 l 1
+ 200 640 l 1
+ 50 700 l 1
+EndSplineSet
+EndChar
+
+StartChar: Tbar
+Encoding: 358 358 547
+Width: 500
+Flags: W
+HStem: 0 21G<220 280> 210 60<100 220 280 400> 540 60<50 220 280 450>
+VStem: 220 60<0 210 270 540>
+LayerCount: 2
+Fore
+SplineSet
+450 540 m 1
+ 280 540 l 1
+ 280 270 l 1
+ 400 270 l 1
+ 400 210 l 1
+ 280 210 l 1
+ 280 0 l 1
+ 220 0 l 1
+ 220 210 l 1
+ 100 210 l 1
+ 100 270 l 1
+ 220 270 l 1
+ 220 540 l 1
+ 50 540 l 1
+ 50 600 l 1
+ 450 600 l 1
+ 450 540 l 1
+EndSplineSet
+EndChar
+
+StartChar: tbar
+Encoding: 359 359 548
+Width: 500
+Flags: W
+HStem: -10 50<218.07 448.875> 210 60<50 110 170 350> 440 60<170 380>
+VStem: 110 60<94.7986 210 270 440 500 620>
+LayerCount: 2
+Fore
+SplineSet
+110 270 m 1
+ 110 620 l 1
+ 170 640 l 1
+ 170 500 l 1
+ 380 500 l 1
+ 380 440 l 1
+ 170 440 l 1
+ 170 270 l 1
+ 350 270 l 1
+ 350 210 l 1
+ 170 210 l 1
+ 170 39 252 40 310 40 c 0
+ 336 40 424 52 450 60 c 1
+ 450 10 l 1
+ 430 -6 343 -10 310 -10 c 0
+ 235 -10 110 0 110 210 c 1
+ 50 210 l 1
+ 50 270 l 1
+ 110 270 l 1
+EndSplineSet
+EndChar
+
+StartChar: Eng
+Encoding: 330 330 549
+Width: 500
+Flags: W
+HStem: -179.052 58.5371<135.864 368.59> 0 21G<50 110>
+VStem: 50 60<0 540> 390 60<-99.286 0 60 580>
+LayerCount: 2
+Fore
+SplineSet
+390 60 m 1
+ 390 580 l 1
+ 450 600 l 1
+ 450 0 l 2
+ 450 -148.579 442.002 -179.052 250.946 -179.052 c 0
+ 213.353 -179.052 142 -160 110 -150 c 1
+ 110 -100 l 1
+ 144 -110 205.929 -120.515 250.104 -120.515 c 0
+ 352.011 -120.515 390 -130 390 0 c 1
+ 350 0 l 1
+ 110 540 l 1
+ 110 0 l 1
+ 50 0 l 1
+ 50 600 l 1
+ 150 600 l 1
+ 390 60 l 1
+EndSplineSet
+EndChar
+
+StartChar: eng
+Encoding: 331 331 550
+Width: 500
+Flags: W
+HStem: -179.052 58.5371<135.864 368.59> 0 21G<50 110> 440 60<131.11 339.3>
+VStem: 50 60<0 427.906> 390 60<-99.286 399.545>
+LayerCount: 2
+Fore
+SplineSet
+50 0 m 1
+ 50 435 l 1
+ 108 474 167.984 500 250 500 c 0
+ 339.976 500 428 448 450 385 c 1
+ 450 0 l 2
+ 450 -148.579 442.002 -179.052 250.946 -179.052 c 0
+ 213.353 -179.052 142 -160 110 -150 c 1
+ 110 -100 l 1
+ 144 -110 205.929 -120.515 250.104 -120.515 c 0
+ 352.011 -120.515 390 -130 390 0 c 2
+ 390 360 l 2
+ 390 413.333 303 440 220 440 c 0
+ 179 440 134.667 431.333 110 420 c 1
+ 110 0 l 1
+ 50 0 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
