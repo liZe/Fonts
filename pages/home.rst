@@ -5,8 +5,9 @@
 Presentation
 ============
 
-This website references the fonts created by `Kozea <http://kozea.fr/>`_ using
-the amazing `FontForge <http://fontforge.sourceforge.net/>`_ software.
+This website references the fonts created by `Kozea
+<http://community.kozea.org/>`_ using the amazing `FontForge
+<http://fontforge.sourceforge.net/>`_ software.
 
 You Said Open Source?
 =====================
