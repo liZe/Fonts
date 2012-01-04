@@ -1,0 +1,30 @@
+name: Kozea Fonts
+description: Free and open source fonts created by Kozea
+license: SIL Open Font License
+public: true
+url: http://fonts.kozea.org/
+
+menu:
+  - Fonts:
+      link: /fonts/
+  - News:
+      link: /news/
+  - Contribute:
+      link: /contribute/
+  - Download:
+      link: /download/
+  
+project (git):
+  url: git://github.com/Kozea/Fonts.git
+  path: fonts
+
+vcs (git):
+  url: git://github.com/Kozea/Fonts.git
+  path: /var/db/git/fonts.git
+
+code browser (github):
+  project name: Kozea/Fonts
+
+bug tracker (redmine):
+  base url: http://redmine.kozea.fr/
+  project name: fonts

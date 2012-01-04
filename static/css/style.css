@@ -1,0 +1,123 @@
+html {
+  background: linear-gradient(white, #999);
+  min-height: 100%;
+}
+
+body {
+  color: #554;
+  font-family: sans-serif;
+  padding: 0;
+}
+
+header {
+  padding: 2em;
+}
+
+section {
+  margin: 0 20%;
+}
+
+section section {
+  margin: 0;
+}
+
+#rss {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#rss:hover,
+#rss:focus {
+  background-color: #d60;
+}
+
+.abstract {
+  font-size: 0.9em;
+  margin: -2em 0 2em 2em;
+  opacity: 0.7;
+  text-transform: lowercase;
+}
+
+.topic-title {
+  display: none;
+}
+
+a {
+  color: #d60;
+  transition-duration: 0.4s;
+  transition-timing-function: linear, ease-out;
+}
+
+a:hover,
+a:focus {
+  color: black;
+  outline: none;
+}
+
+pre {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5em;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 6em;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+}
+
+h2, h3 {
+  font-variant: small-caps;
+  margin: 2.5em 0 1.5em 0;
+}
+
+nav ul {
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  font-size: 1.2em;
+  font-variant: small-caps;
+  padding: 0 0.5em;
+  text-transform: lowercase;
+}
+
+nav li a,
+nav li a:hover,
+nav li a:focus {
+  border-radius: 1em;
+  color: #d60;
+  padding: 0.25em 0.5em 0.5em 0.5em;
+}
+
+nav li a[href] {
+  color: #777;
+}
+
+nav li a[href]:hover,
+nav li a[href]:focus {
+  color: black;
+}
+
+footer {
+  padding: 2em;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+}
+
+footer li a {
+  color: #887;
+  margin: 0 1em;
+}
