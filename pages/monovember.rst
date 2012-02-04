@@ -7,5 +7,5 @@
 You can download here the `Monovember font
 <http://font-generator.kozea.org/Monovember.otf>`_
 
--*Features and screenshots coming soon!*
+*Features and screenshots coming soon!*
 
