@@ -5,7 +5,9 @@
 OpenType Fonts
 ==============
 
-*Coming soon!*
+You can download the git version of the fonts:
+
+- `Monovember <http://font-generator.kozea.org/Monovember.otf>`_
 
 Git Repository
 ==============
