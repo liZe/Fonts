@@ -70,6 +70,14 @@ h1 {
   text-align: center;
 }
 
+h1:before {
+  bottom: 0;
+  content: url(img/fonts.png);
+  left: 40px;
+  opacity: 0.3;
+  position: fixed;
+}
+
 h2, h3 {
   font-variant: small-caps;
   margin: 2.5em 0 1.5em 0;
