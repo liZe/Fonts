@@ -15,11 +15,11 @@ menu:
       link: /download/
   
 project (git):
-  url: git://github.com/Kozea/Fonts.git
+  url: git://github.com/liZe/Fonts.git
   path: fonts
 
 vcs (git):
-  url: git://github.com/Kozea/Fonts.git
+  url: git://github.com/liZe/Fonts.git
   path: /var/db/git/fonts.git
 
 code browser (github):
