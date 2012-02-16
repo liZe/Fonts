@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1328976622
+ModificationTime: 1329351646
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -65,14 +65,14 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 795 53 15
+WinInfo: 64183 53 15
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
 BlueValues 31 [-190 -190 0 0 500 500 700 700]
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 513802 1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114114 661
+BeginChars: 1114114 672
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -12813,6 +12813,198 @@ SplineSet
  80 720 l 5
  160 720 l 5
  250 640 l 4
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: afii10059
+Encoding: 1034 1034 661
+Width: 500
+Flags: HW
+HStem: 0 60<230 373.055> 320 60<110 170 230 343.792>
+VStem: 50 60<0 320 380 600> 170 60<60 320 380 600> 390 60<78.4688 271.732>
+LayerCount: 2
+Fore
+SplineSet
+110 320 m 1
+ 110 0 l 1
+ 50 0 l 1
+ 50 600 l 1
+ 110 600 l 1
+ 110 380 l 1
+ 170 380 l 1
+ 170 600 l 1
+ 230 600 l 1
+ 230 380 l 1
+ 310 380 l 2
+ 423 380 450 278 450 140 c 3
+ 450 0 427 0 230 0 c 2
+ 170 0 l 1
+ 170 320 l 1
+ 110 320 l 1
+310 320 m 1
+ 230 320 l 1
+ 230 60 l 3
+ 373 60 390 74 390 140 c 3
+ 390 269 365 290 310 320 c 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: afii10107
+Encoding: 1114 1114 662
+Width: 500
+Flags: HW
+HStem: 0 60<230 373.055> 270 60<110 170 230 360.025> 480 20G<50 110 170 230>
+VStem: 50 60<0 270 330 500> 170 60<60 270 330 500> 390 60<78.4888 239.831>
+LayerCount: 2
+Fore
+SplineSet
+110 270 m 1
+ 110 0 l 1
+ 50 0 l 1
+ 50 500 l 1
+ 110 500 l 1
+ 110 330 l 1
+ 170 330 l 1
+ 170 500 l 1
+ 230 500 l 1
+ 230 330 l 1
+ 310 330 l 2
+ 423 330 450 254 450 140 c 0
+ 450 12 427 0 230 0 c 2
+ 170 0 l 1
+ 170 270 l 1
+ 110 270 l 1
+310 270 m 1
+ 230 270 l 1
+ 230 60 l 3
+ 373 60 390 74 390 140 c 3
+ 390 248 364 254 310 270 c 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni0460
+Encoding: 1120 1120 663
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 38 87 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0461
+Encoding: 1121 1121 664
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 27 119 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: afii10108
+Encoding: 1115 1115 665
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 543 295 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni04AA
+Encoding: 1194 1194 666
+Width: 500
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 208 199 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni04AB
+Encoding: 1195 1195 667
+Width: 500
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 172 231 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni04E0
+Encoding: 1248 1248 668
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 362 1047 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni04E1
+Encoding: 1249 1249 669
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 363 1079 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0480
+Encoding: 1152 1152 670
+Width: 500
+Flags: W
+HStem: -190 21G<390 450> 0 60<169.596 380.957> 540 60<179.309 358.188>
+VStem: 50 70<272.568 495.67> 390 60<-190 -13.1256>
+LayerCount: 2
+Fore
+SplineSet
+390 -190 m 17
+ 390 -40 l 3
+ 390 -12 355 0 250 0 c 3
+ 67 0 50 44 50 505 c 1
+ 82 539 164 600 250 600 c 3
+ 335 600 412 580 450 540 c 1
+ 420 480 l 1
+ 376 521 305 540 250 540 c 3
+ 214 540 158 511 120 480 c 1
+ 120 92 140 60 250 60 c 3
+ 404 60 450 29 450 -40 c 3
+ 450 -190 l 9
+ 390 -190 l 17
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni0481
+Encoding: 1153 1153 671
+Width: 500
+Flags: W
+HStem: -190 21G<390 450> 0 60<169.669 380.957> 440 60<179.309 358.188>
+VStem: 50 70<173.294 395.67> 390 60<-190 -13.1256>
+LayerCount: 2
+Fore
+SplineSet
+390 -190 m 17
+ 390 -40 l 3
+ 390 -12 355 0 250 0 c 3
+ 67 0 51 30 50 405 c 1
+ 82 439 164 500 250 500 c 3
+ 335 500 412 480 450 440 c 1
+ 420 380 l 1
+ 376 421 305 440 250 440 c 3
+ 214 440 158 411 120 380 c 1
+ 120 102 140 60 250 60 c 3
+ 404 60 450 29 450 -40 c 7
+ 450 -190 l 13
+ 390 -190 l 17
 EndSplineSet
 Validated: 1
 EndChar
