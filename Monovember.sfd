@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1329351646
+ModificationTime: 1330011818
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -65,7 +65,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 64183 53 15
+WinInfo: 0 53 15
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
@@ -3718,13 +3718,12 @@ StartChar: amacron
 Encoding: 257 257 174
 Width: 500
 VWidth: 0
-HStem: 0 60<112.081 286> 230 60<140.645 387.487> 440 60<142.29 329.989> 570 60<100 400>
-VStem: 50 60<71.712 203.303> 100 300<570 630> 390 60<80 216.166 270 373.501>
+HStem: 0 60<112.081 286> 230 60<140.645 387.487> 440 60<142.29 329.989> 600 60<100 400>
+VStem: 50 60<71.712 203.303> 100 300<600 660> 390 60<80 216.166 270 373.501>
 LayerCount: 2
 Fore
-Refer: 170 175 S 1 0 0 1 0 -70 2
+Refer: 170 175 S 1 0 0 1 0 -40 2
 Refer: 30 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Emacron
