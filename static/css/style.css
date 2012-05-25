@@ -1,15 +1,15 @@
 html {
-  background: linear-gradient(white, #999);
   min-height: 100%;
 }
 
 body {
-  color: #554;
+  color: #998f99;
   font-family: sans-serif;
+  margin: 0;
   padding: 0;
 }
 
-header {
+body > header {
   padding: 2em;
 }
 
@@ -34,7 +34,7 @@ section section {
 
 .abstract {
   font-size: 0.9em;
-  margin: -2em 0 2em 2em;
+  margin: -1.5em 0 2em 1em;
   opacity: 0.7;
   text-transform: lowercase;
 }
@@ -70,28 +70,21 @@ h1 {
   text-align: center;
 }
 
-h1:before {
-  bottom: 0;
-  content: url(img/fonts.png);
-  left: 40px;
-  opacity: 0.3;
-  position: fixed;
+h1 a, h2, h3 {
+  color: #202;
+  font-weight: normal;
+  margin: 2em 0 1em 0;
 }
 
-h2, h3 {
-  font-variant: small-caps;
-  margin: 2.5em 0 1.5em 0;
-}
-
-nav ul {
-  background: rgba(0, 0, 0, 0.05);
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+nav ul, footer ul {
+  background: rgba(0, 0, 0, 0.01);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   margin: 0;
   padding: 1em;
   text-align: center;
 }
 
-nav li {
+nav li, footer li {
   display: inline;
   font-size: 1.2em;
   font-variant: small-caps;
@@ -99,33 +92,31 @@ nav li {
   text-transform: lowercase;
 }
 
+nav li a[href],
+footer li a[href] {
+  color: #777;
+}
+
 nav li a,
 nav li a:hover,
-nav li a:focus {
+nav li a:focus,
+footer li a,
+footer li a:hover,
+footer li a:focus {
   border-radius: 1em;
   color: #d60;
   padding: 0.25em 0.5em 0.5em 0.5em;
 }
-
-nav li a[href] {
-  color: #777;
-}
-
 nav li a[href]:hover,
-nav li a[href]:focus {
+nav li a[href]:focus,
+footer li a[href]:hover,
+footer li a[href]:focus, {
   color: black;
 }
 
 footer {
-  padding: 2em;
-  text-align: center;
-}
-
-footer li {
-  display: inline;
-}
-
-footer li a {
-  color: #887;
-  margin: 0 1em;
+  font-size: 0.8em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
