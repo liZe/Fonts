@@ -84,12 +84,39 @@ nav ul, footer ul {
   text-align: center;
 }
 
+nav ul ul {
+  background: white;
+  border-width: 0;
+  display: inline-block;
+  font-size: 0.8em;
+  left: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  top: 2em;
+  transition-duration: 0.4s;
+  width: 0;
+}
+
 nav li, footer li {
   display: inline;
   font-size: 1.2em;
   font-variant: small-caps;
+  margin: 0;
   padding: 0 0.5em;
+  position: relative;
   text-transform: lowercase;
+}
+
+nav ul li:hover ul {
+  border-width: 1px;
+  opacity: 1;
+  padding: 1em;
+  width: auto;
+}
+
+nav ul li:hover ul li {
+  padding: 0;
 }
 
 nav li a[href],

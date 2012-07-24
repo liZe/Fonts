@@ -7,6 +7,9 @@ url: http://fonts.kozea.org/
 menu:
   - Fonts:
       link: /fonts/
+      menu:
+        - Monovember:
+            link: /monovember/
   - News:
       link: /news/
   - Contribute:
