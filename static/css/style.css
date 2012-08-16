@@ -87,12 +87,12 @@ nav ul, footer ul {
   background: rgba(0, 0, 0, 0.01);
   border: 1px solid rgba(0, 0, 0, 0.05);
   margin: 0;
-  padding: 0.5em;
+  padding: 0.5em 0.5em 0.7em 0.5em;
   text-align: center;
 }
 
 nav ul ul {
-  border-width: 0;
+  border-width: 0 1px 1px 1px;
   display: inline-block;
   font-size: 0.8em;
   height: 0;
