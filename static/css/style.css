@@ -1,20 +1,20 @@
 html {
+  background: white;
+  margin: 0;
   min-height: 100%;
+  padding: 0;
 }
 
 body {
   color: #998f99;
   font-family: sans-serif;
-  margin: 0;
+  margin: 4em 0;
+  min-height: 100%;
   padding: 0;
 }
 
-body > header {
-  padding: 2em;
-}
-
 section {
-  margin: 0 20%;
+  margin: 0 30%;
 }
 
 section section {
@@ -63,14 +63,21 @@ pre {
 }
 
 h1 {
-  font-family: monospace;
-  font-size: 6em;
+  font-family: "Monovember";
+  font-size: 4em;
   font-weight: normal;
-  margin: 0;
+  line-height: 0.7em;
+  padding: 0;
+  text-shadow: #ddd 1px 1px 3px;
+  margin: -0.2em 0 0.6em 0;
   text-align: center;
 }
 
-h1 a, h2, h3 {
+h1 a {
+  color: rgba(100, 100, 100, 0.5);
+}
+
+h2, h3 {
   color: #202;
   font-weight: normal;
   margin: 2em 0 1em 0;
@@ -80,15 +87,15 @@ nav ul, footer ul {
   background: rgba(0, 0, 0, 0.01);
   border: 1px solid rgba(0, 0, 0, 0.05);
   margin: 0;
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
 }
 
 nav ul ul {
-  background: white;
   border-width: 0;
   display: inline-block;
   font-size: 0.8em;
+  height: 0;
   left: 0;
   overflow: hidden;
   padding: 0;
@@ -109,7 +116,7 @@ nav li, footer li {
 }
 
 nav ul li:hover ul {
-  border-width: 1px;
+  height: auto;
   opacity: 1;
   padding: 1em;
   width: auto;
@@ -121,7 +128,7 @@ nav ul li:hover ul li {
 
 nav li a[href],
 footer li a[href] {
-  color: #777;
+  color: #999;
 }
 
 nav li a,
