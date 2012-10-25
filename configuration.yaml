@@ -26,7 +26,7 @@ vcs (git):
   path: /var/db/git/fonts.git
 
 code browser (github):
-  project name: Kozea/Fonts
+  project name: liZe/Fonts
 
 bug tracker (redmine):
   base url: http://redmine.kozea.fr/
