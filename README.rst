@@ -1,9 +1,8 @@
-=============
- Kozea Fonts
-=============
+=======
+ Fonts
+=======
 
-Here are some open source fonts created by liZe, hosted by `Kozea
-<http://fonts.kozea.org/>`_.
+Here are some open source fonts created by liZe.
 
 These fonts are released under the `SIL Open Font License
 <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web>`_.
