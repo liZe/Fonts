@@ -14,14 +14,13 @@ sfntRevision: 0x0000199a
 LayerCount: 2
 Layer: 0 0 "Arri+AOgA-re"  1
 Layer: 1 0 "Avant"  0
-NeedsXUIDChange: 1
 XUID: [1021 652 1294743660 12143374]
 FSType: 8
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1318153583
-ModificationTime: 1347644907
+ModificationTime: 1367944768
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -55,6 +54,7 @@ OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000007.00000000.00000000.00000000
 Lookup: 4 0 0 "Latin ligatures"  {"Latin ligatures"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Historical ligatures"  {"Historical ligatures"  } ['hlig' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Ligatures position"  {"Latin ligatures positions"  } [' RQD' ('DFLT' <'dflt' > 'armn' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -65,7 +65,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 53 15
+WinInfo: 53 53 15
 BeginPrivate: 3
 StdHW 4 [60]
 StdVW 4 [60]
@@ -4537,9 +4537,9 @@ SplineSet
  454 30 490 100 510 180 c 1x7c
 EndSplineSet
 Validated: 1
+Ligature2: "Historical ligatures" l s
 Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
 LCarets2: 2 0 0 
-Ligature2: "Latin ligatures" l s
 EndChar
 
 StartChar: uniFB00
@@ -12956,9 +12956,9 @@ SplineSet
  450 380 l 1x7c
 EndSplineSet
 Validated: 1
+Ligature2: "Historical ligatures" s t
 LCarets2: 1 0 
 Position2: "Latin ligatures positions" dx=0 dy=0 dh=500 dv=0
-Ligature2: "Latin ligatures" s t
 EndChar
 
 StartChar: caron
