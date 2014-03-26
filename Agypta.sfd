@@ -2,7 +2,7 @@ SplineFontDB: 3.0
 FontName: Agypta
 FullName: Agypta
 FamilyName: Agypta
-Weight: Semi-Bold
+Weight: Regular
 Copyright: Created by Guillaume Ayoub with FontForge 2.0 (http://fontforge.sf.net)
 UComments: "2013-7-28: Created." 
 Version: 001.000
@@ -20,9 +20,9 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1375026792
-ModificationTime: 1395866599
+ModificationTime: 1395870220
 PfmFamily: 17
-TTFWeight: 600
+TTFWeight: 500
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
@@ -62,13 +62,14 @@ KernClass2: 10 9 "kerning"
  11 c d e g o q
  5 v w y
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} -80 {} -90 {} -20 {} -80 {} 0 {} -100 {} 0 {} -20 {} 20 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -110 {} -10 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} -100 {} -50 {} 0 {} 0 {} 0 {} -80 {} -70 {} -40 {} 0 {} 0 {} -20 {} -40 {} -40 {} -30 {} -60 {} 0 {} -60 {} 0 {} 0 {} 0 {} -20 {} -40 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 20 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -80 {} -50 {} -20 {} -80 {} 0 {} -50 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {}
+LangName: 1033 
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 43 43 4
+WinInfo: 0 43 4
 BeginPrivate: 1
 BlueValues 41 [-210 -200 -10 0 500 510 650 660 700 710]
 EndPrivate
@@ -626,7 +627,7 @@ StartChar: M
 Encoding: 77 77 20
 Width: 870
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 100<50 150 250 350 520 620 720 820> 550 100<50 150 720 820>
 VStem: 150 100<100 451> 620 100<100 451>
 LayerCount: 2
@@ -643,9 +644,9 @@ SplineSet
  150 550 l 1
  50 550 l 1
  50 650 l 1
- 250 651 l 1
+ 250 650 l 5
  435 363.293 l 1
- 620 651 l 1
+ 620 650 l 5
  820 650 l 1
  820 550 l 1
  720 550 l 1
@@ -691,7 +692,7 @@ StartChar: f
 Encoding: 102 102 22
 Width: 465
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 100<50 150 250 350> 340 100<50 150 250 400> 610 100<270.427 434.26>
 VStem: 150 100<100 340 440 591.85>
 LayerCount: 2
@@ -814,13 +815,13 @@ StartChar: N
 Encoding: 78 78 26
 Width: 790
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 100<50 150 250 350> 550 100<50 150 440 540 640 740>
 VStem: 150 100<100 451> 540 100<200 550>
 LayerCount: 2
 Fore
 SplineSet
-250 651 m 25
+250 650 m 29
  540 200 l 25
  540 550 l 25
  440 550 l 25
@@ -830,7 +831,7 @@ SplineSet
  640 550 l 25
  640 0 l 25
  540 0 l 25
- 250 451 l 29
+ 250 451 l 25
  250 100 l 25
  350 100 l 25
  350 0 l 25
@@ -840,7 +841,7 @@ SplineSet
  150 550 l 25
  50 550 l 25
  50 650 l 25
- 250 651 l 25
+ 250 650 l 29
 EndSplineSet
 EndChar
 
@@ -1185,7 +1186,7 @@ StartChar: t
 Encoding: 116 116 38
 Width: 450
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -10 100<192.638 368.663> 400 100<150 360> 630 20G<50 150>
 VStem: 50 100<137.799 400 500 650>
 LayerCount: 2
@@ -1479,23 +1480,23 @@ StartChar: G
 Encoding: 71 71 48
 Width: 650
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 100<263.879 496.888> 220 100<390 500> 560 100<269.826 498.85>
 VStem: 30 110<209.565 419.219> 500 100<104.016 220 439.995 544.831>
 LayerCount: 2
 Fore
 SplineSet
 600 50 m 1
- 576 25.333 491.034 -10 360 -10 c 0
- 161.748 -10 30 115 30 310 c 0
- 30 493.011 157.998 660 360 660 c 0
+ 576 25.333 491.034 -10 360 -10 c 7
+ 161.748 -10 30 115 30 310 c 3
+ 30 493.011 157.998 660 360 660 c 7
  491.095 660 572 613 600 586 c 1
  600 439.995 l 1
  500 439.995 l 1
  500 537.995 l 1
- 474.161 546.049 443.006 560 360 560 c 0
- 247.888 560 140 465.013 140 310 c 4
- 140 156.987 257.956 90 360 90 c 0
+ 474.161 546.049 443.006 560 360 560 c 7
+ 247.888 560 140 465.013 140 310 c 3
+ 140 156.987 257.956 90 360 90 c 7
  404.424 90 455 96 500 110 c 1
  500 220 l 1
  390 220 l 1
