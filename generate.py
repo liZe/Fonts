@@ -3,8 +3,12 @@
 import os
 import fontforge
 
-for filename in os.listdir("."):
-    font, extension = os.path.splitext(filename)
-    if extension == ".sfd":
-        print("Generating %s" % font)
-        fontforge.open("%s.sfd" % font).generate("%s.otf" % font)
+for type in os.listdir("."):
+    if type.startswith(".") or not os.path.isdir(type):
+        continue
+    for filename in os.listdir(type):
+        font, extension = os.path.splitext(filename)
+        if extension in (".sfd", ".sfdir"):
+            print("Generating %s %s" % (type, font))
+            fontforge.open(os.path.join(type, filename)).generate(
+                "%s %s.otf" % (type, font))

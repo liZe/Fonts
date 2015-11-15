@@ -1,0 +1,13 @@
+StartChar: uacute
+Encoding: 250 250 108
+Width: 542
+VWidth: 0
+Flags: W
+HStem: -10 59<197.158 307.069> 387 30<30.8175 83.7288 283.818 343.616> 480 155
+VStem: 88 84<76.6922 380.904> 165 230 348 84<71.7115 380.36>
+LayerCount: 2
+Fore
+Refer: 101 180 S 1 0 0 1 35 49 2
+Refer: 10 117 S 1 0 0 1 0 0 2
+Validated: 1
+EndChar
