@@ -3,9 +3,9 @@ Encoding: 8331 8331 304
 Width: 210
 VWidth: 0
 Flags: W
-HStem: 100 45<29.73 180.619>
+HStem: 105 40<29.73 180.619>
 VStem: 20 170
 LayerCount: 2
 Fore
-Refer: 299 8315 S 1 0 0 1 0 -430 2
+Refer: 299 8315 N 1 0 0 1 0 -430 2
 EndChar

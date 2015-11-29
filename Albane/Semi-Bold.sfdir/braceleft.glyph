@@ -1,0 +1,19 @@
+StartChar: braceleft
+Encoding: 123 123 169
+Width: 330
+VWidth: 0
+Flags: W
+HStem: -140 24<258.633 295> 686 24<263.844 300>
+VStem: 50 250
+LayerCount: 2
+Fore
+SplineSet
+295 -140 m 17
+ 15 -140 204 241 50 287 c 5
+ 202 349 22 710 300 710 c 9
+ 300 686 l 17
+ 125 686 247 301 154 287 c 1
+ 246 265 132 -116 295 -116 c 9
+ 295 -140 l 17
+EndSplineSet
+EndChar

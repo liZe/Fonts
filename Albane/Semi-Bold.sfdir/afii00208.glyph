@@ -1,0 +1,17 @@
+StartChar: afii00208
+Encoding: 8213 8213 291
+Width: 760
+VWidth: 0
+Flags: W
+HStem: 200 55<79.7244 660.46>
+LayerCount: 2
+Fore
+SplineSet
+660 205 m 1
+ 577 205 153 205 70 200 c 1
+ 76 216 77 236 80 255 c 1
+ 161 259 586 259 670 260 c 1
+ 667 241 665 219 660 205 c 1
+EndSplineSet
+Validated: 1
+EndChar

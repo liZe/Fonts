@@ -1,0 +1,12 @@
+StartChar: exclamdbl
+Encoding: 8252 8252 204
+Width: 540
+VWidth: 0
+HStem: -13 112<86.538 173.462 356.538 443.462>
+VStem: 85 100<544.1 654> 355 100<544.1 654>
+LayerCount: 2
+Fore
+Refer: 16 33 N 1 0 0 1 270 0 2
+Refer: 16 33 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

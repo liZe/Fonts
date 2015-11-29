@@ -1,11 +1,11 @@
 StartChar: uni216D
 Encoding: 8557 8557 236
-Width: 648
+Width: 638
 VWidth: 0
-HStem: -10 42<291.384 529.604> 619 41<272.117 478.01>
-VStem: 40 116<188.517 445.804> 556 16<471 498.125>
+Flags: W
+HStem: -10 37<288.849 507.791> 624 36<268.636 454.915>
+VStem: 40 106<187.887 449.417> 546 13<471 498.125>
 LayerCount: 2
 Fore
 Refer: 33 67 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar

@@ -2,19 +2,19 @@ StartChar: uni2035
 Encoding: 8245 8245 286
 Width: 225
 VWidth: 0
-Flags: W
+Flags: MW
 HStem: 399 240
-VStem: 60 85<487.123 620.654> 98 46<413 512.76>
+VStem: 60 85<487.123 620.654>
 LayerCount: 2
 Fore
 SplineSet
-145 606 m 3xc0
+145 606 m 3
  145 597 140 562 140 528 c 3
  140 515 143 412 144 399 c 9
- 98 413 l 17xa0
+ 98 413 l 17
  84 458 60 608 60 629 c 3
  60 635 62 639 73 639 c 3
- 86 639 145 614 145 606 c 3xc0
+ 86 639 145 614 145 606 c 3
 EndSplineSet
 Validated: 1
 EndChar

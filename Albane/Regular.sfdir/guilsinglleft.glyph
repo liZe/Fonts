@@ -1,11 +1,10 @@
 StartChar: guilsinglleft
 Encoding: 8249 8249 277
-Width: 390
+Width: 378
 VWidth: 0
 Flags: W
-VStem: 50 110.11<184.341 238.655>
+VStem: 50 100.11<184.073 238.922>
 LayerCount: 2
 Fore
 Refer: 88 60 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar

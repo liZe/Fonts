@@ -2,11 +2,10 @@ StartChar: uni2011
 Encoding: 8209 8209 212
 Width: 400
 VWidth: 0
-Flags: W
-HStem: 200 55<79.73 300.416>
+Flags: HW
+HStem: 205 50<79.73 300.619>
 VStem: 70 240
 LayerCount: 2
 Fore
-Refer: 70 45 S 1 0 0 1 0 0 2
-Validated: 1
+Refer: 70 45 N 1 0 0 1 0 0 2
 EndChar

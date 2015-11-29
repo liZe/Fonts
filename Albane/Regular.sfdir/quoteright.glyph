@@ -1,12 +1,11 @@
 StartChar: quoteright
 Encoding: 8217 8217 68
-Width: 270
+Width: 260
 VWidth: 0
 Flags: W
-HStem: 419 220
-VStem: 111 79<519.365 608.137>
+HStem: 419 212
+VStem: 111 69<515.973 605.928>
 LayerCount: 2
 Fore
 Refer: 63 44 N 1 0 0 1 -10 550 2
-Validated: 1
 EndChar

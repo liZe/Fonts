@@ -1,13 +1,12 @@
 StartChar: quotedblright
 Encoding: 8221 8221 282
-Width: 430
+Width: 420
 VWidth: 0
 Flags: W
-HStem: 419 220
-VStem: 111 79<519.365 608.137> 271 79<519.365 608.137>
+HStem: 419 212
+VStem: 111 69<515.973 605.928> 271 69<515.973 605.928>
 LayerCount: 2
 Fore
 Refer: 63 44 N 1 0 0 1 150 550 2
 Refer: 63 44 N 1 0 0 1 -10 550 2
-Validated: 1
 EndChar

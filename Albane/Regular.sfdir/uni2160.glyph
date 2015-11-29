@@ -1,12 +1,11 @@
 StartChar: uni2160
 Encoding: 8544 8544 223
-Width: 315
+Width: 305
 VWidth: 0
 Flags: W
-HStem: -4 21G<40 53.5 264.5 275> 630 20G<40 275>
-VStem: 111 92<39.8081 610.192>
+HStem: -4 21G<40 53.5 254.5 265> 630 20G<40 265>
+VStem: 111 82<36.8081 613.192>
 LayerCount: 2
 Fore
 Refer: 39 73 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar

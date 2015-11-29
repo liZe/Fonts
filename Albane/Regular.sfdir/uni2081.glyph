@@ -1,12 +1,11 @@
 StartChar: uni2081
 Encoding: 8321 8321 192
-Width: 170
+Width: 167
 VWidth: 0
 Flags: W
-HStem: -2 29<16.3905 68.5588 113.686 158.342> 189 25<25 49>
-VStem: 70 42<32.2194 186.999>
+HStem: -2 26<16.2132 67.6659 111.578 155.506> 194 20<25 49>
+VStem: 70 39<29.5924 191.757>
 LayerCount: 2
 Fore
-Refer: 181 185 S 1 0 0 1 0 -430 2
-Validated: 1
+Refer: 181 185 N 1 0 0 1 0 -430 2
 EndChar

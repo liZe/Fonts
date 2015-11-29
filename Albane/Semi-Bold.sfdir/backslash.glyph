@@ -1,0 +1,19 @@
+StartChar: backslash
+Encoding: 92 92 82
+Width: 330
+VWidth: 0
+Flags: MW
+HStem: 685 20G<90 131.5>
+VStem: 230 70<-48.1083 2.40234>
+DStem2: 300 -45 230 -65 0.257663 -0.966235<-774.92 1.93129>
+LayerCount: 2
+Fore
+SplineSet
+100 705 m 5
+ 163 458 230 208 300 -45 c 5
+ 280 -55 255 -60 230 -65 c 5
+ 155 181 93 433 30 685 c 5
+ 55 690 80 695 100 705 c 5
+EndSplineSet
+Validated: 1
+EndChar

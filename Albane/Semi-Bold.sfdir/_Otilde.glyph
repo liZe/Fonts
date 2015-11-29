@@ -1,0 +1,13 @@
+StartChar: Otilde
+Encoding: 213 213 162
+Width: 719
+VWidth: 0
+Flags: W
+HStem: -10 42<285.148 465.367> 619 41<260.866 435.626> 775 65<256.431 355.643>
+VStem: 35 103<202.589 449.026> 581 103<186.044 448.246>
+LayerCount: 2
+Fore
+Refer: 152 126 S 1 0 0 1 126 550 2
+Refer: 31 79 S 1 0 0 1 0 0 2
+Validated: 1
+EndChar

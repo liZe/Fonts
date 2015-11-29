@@ -1,11 +1,11 @@
 StartChar: uni217C
 Encoding: 8572 8572 251
-Width: 278
+Width: 268
 VWidth: 0
-HStem: -4 30<191.917 237.182> 614 28<42 88.5454> 681 20G<174.5 190>
-VStem: 100 86<33.9572 607.543>
+Flags: W
+HStem: -4 27<184.232 227.438> 617 25<42 85.8812> 681 20G<164.5 180>
+VStem: 100 76<30.9572 610.543>
 LayerCount: 2
 Fore
 Refer: 8 108 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar

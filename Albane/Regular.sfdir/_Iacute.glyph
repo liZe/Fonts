@@ -1,13 +1,12 @@
 StartChar: Iacute
 Encoding: 205 205 123
-Width: 315
+Width: 305
 VWidth: 0
-Flags: W
-HStem: -4 21G<40 53.5 264.5 275> 630 20G<40 275> 710 155
-VStem: 29.5 230 111 92<39.8081 610.192>
+Flags: MW
+HStem: 630 20G<40 265> 712 153
+VStem: 111 82<36.8081 613.192>
 LayerCount: 2
 Fore
 Refer: 101 180 S 1 0 0 1 -100.5 279 2
 Refer: 39 73 S 1 0 0 1 0 0 2
-Validated: 1
 EndChar

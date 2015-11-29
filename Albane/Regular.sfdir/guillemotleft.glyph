@@ -1,12 +1,11 @@
 StartChar: guillemotleft
 Encoding: 171 171 146
-Width: 600
+Width: 588
 VWidth: 0
 Flags: W
-VStem: 50 110.11<184.341 238.655> 260 110.11<184.341 238.655>
+VStem: 50 100.11<184.073 238.922> 260 100.11<184.073 238.922>
 LayerCount: 2
 Fore
-Refer: 88 60 S 1 0 0 1 210 0 2
-Refer: 88 60 S 1 0 0 1 0 0 2
-Validated: 1
+Refer: 88 60 N 1 0 0 1 210 0 2
+Refer: 88 60 N 1 0 0 1 0 0 2
 EndChar

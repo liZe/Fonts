@@ -1,12 +1,11 @@
 StartChar: uni2027
 Encoding: 8231 8231 210
-Width: 260
+Width: 254
 VWidth: 0
 Flags: W
-HStem: 157 92<83.5156 166.048>
-VStem: 80 90<160.217 245.503>
+HStem: 160 86<82.3462 161.314>
+VStem: 80 84<161.715 243.882>
 LayerCount: 2
 Fore
-Refer: 148 183 S 1 0 0 1 0 0 2
-Validated: 1
+Refer: 148 183 N 1 0 0 1 0 0 2
 EndChar

@@ -1,18 +1,17 @@
 StartChar: periodcentered
 Encoding: 183 183 148
-Width: 260
+Width: 254
 VWidth: 0
 Flags: W
-HStem: 157 92<83.5156 166.048>
-VStem: 80 90<160.217 245.503>
+HStem: 160 86<82.3462 161.314>
+VStem: 80 84<161.715 243.882>
 LayerCount: 2
 Fore
 SplineSet
-125 249 m 27
- 150 249 170 242 170 203 c 3
- 170 160 150 157 125 157 c 27
- 100 157 80 162 80 203 c 3
- 80 244 100 249 125 249 c 27
+122 246 m 27
+ 147 246 164 242 164 203 c 3
+ 164 160 147 160 122 160 c 27
+ 97 160 80 162 80 203 c 3
+ 80 244 97 246 122 246 c 27
 EndSplineSet
-Validated: 1
 EndChar
