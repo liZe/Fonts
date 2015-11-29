@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: Albane
-FullName: Albane
+FontName: Albane-SemiBold
+FullName: Albane Semi-Bold
 FamilyName: Albane
-Weight: Semi-Bold
+Weight: SemiBold
 Copyright: Created by Guillaume Ayoub with FontForge
 UComments: "2014-6-9: Created."
 Version: 001.000
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1402326609
-ModificationTime: 1448808170
+ModificationTime: 1448814662
 PfmFamily: 17
 TTFWeight: 600
 TTFWidth: 5

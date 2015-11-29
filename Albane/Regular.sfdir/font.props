@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: Albane
-FullName: Albane
+FontName: Albane-Regular
+FullName: Albane Regular
 FamilyName: Albane
-Weight: Medium
+Weight: Regular
 Copyright: Created by Guillaume Ayoub with FontForge
 UComments: "2014-6-9: Created."
 Version: 001.000
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1402326609
-ModificationTime: 1448814116
+ModificationTime: 1448814532
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
