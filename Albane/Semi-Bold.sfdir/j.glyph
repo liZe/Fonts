@@ -2,7 +2,7 @@ StartChar: j
 Encoding: 106 106 5
 Width: 252
 VWidth: 0
-Flags: MWO
+Flags: MW
 HStem: 358 38<52 108.554> 515 112<100.538 187.462>
 VStem: 110 86<-64.152 351>
 LayerCount: 2
